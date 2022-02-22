@@ -1,0 +1,22 @@
+{
+  "name": "phaser3-parcel-template",
+  "version": "1.0.0",
+  "description": "A template project for Phaser 3 using Parceljs",
+  "author": "iqbalbaharum",
+  "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "index.html",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "dev": "parcel -p 8001",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
